@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+tr,td,th{
+    border: 3px solid black;
+}
+table{
+    width: 50%;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.para-1{
+    padding: 10px;
+}
+.para-text{
+    font-size: small;
+}
+.para-2{
+    padding: 10px;
+}
+.para-sub{
+    display: flex;
+    justify-content:space-around;
+    font-size: small;
+    padding: 10px;
+}
+.billing{
+    padding: 10px;
+    text-align: center;
+}
+.billing-add{
+    padding: 10px;
+}
+.billing-add p{
+    font-size: small;
+}
+.billing-text{
+    font-size: small;
+}
+.inner-table{
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    width: 100%;
+}
+.head{
+    text-align: center;
+}
+.items{
+    text-align: center;
+}
+.items-1{
+    text-align: left;
+    padding: 10px 0 10px 20px;
+}
+.subtotal{
+    text-align: center;
+    padding: 10px;
+    font-size: 9;
+}
+.total{
+    text-align: center;
+    padding: 10px;
+}
+
+.invoice{
+    text-align: center;
+    padding: 110px 110px;
+    font-size: 55px;
+}
